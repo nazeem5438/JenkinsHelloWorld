@@ -5,7 +5,7 @@ public class HelloWorld{
 			int min = Integer.parseInt(args[0]);
 			System.out.println("Input Array ");
 			for(String ob : args){
-				System.out.print(obj);
+				System.out.print(ob);
 				int no2 = Integer.parseInt(ob);
 				if(max < no2){
 					max = no2;
@@ -14,7 +14,7 @@ public class HelloWorld{
 					min = no2;
 				}				
 			}
-			
+			System.out.println("\n---------Result----------");
 			System.out.println("The max number is " + max);
 			System.out.println("The min number is " + min);
 		}else{
